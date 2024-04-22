@@ -21,8 +21,7 @@
 
 #include <ktmw32.h>
 #include <tchar.h>
-
-_CRTIMP bool __cdecl __uncaught_exception();
+#include <eh.h>
 
 #pragma pack(push,_ATL_PACKING)
 namespace ATL
