@@ -31,7 +31,7 @@
 /*============================================================================*/
 // Auxiliary System/Screen metrics
 
-typedef enum AFX_DOCK_TYPE
+/*typedef*/ enum AFX_DOCK_TYPE
 {
 	DT_UNDEFINED = 0,    // inherit from application
 	DT_IMMEDIATE = 1,    // control bar torn off immediately and follows the mouse
