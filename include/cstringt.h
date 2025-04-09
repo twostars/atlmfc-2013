@@ -2889,7 +2889,7 @@ public:
 	virtual CStringData* Reallocate(
 		_Inout_ CStringData* pData,
 		_In_ int nChars,
-		_In_ int nCharSize)
+		_In_ int nCharSize) throw()
 	{
 		CStringData* pNewData;
 
